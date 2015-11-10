@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wood_background"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programmer / Developer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1FDA32"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Κοφοτόλιος Νίκος (nick_kofo@yahoo.gr)"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/TextView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="https://timologiaapp.wordpress.com/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Εμπνευστής της ιδέας"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1FDA32"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Συμεωνίδης Μανώλης"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special thanks for the icon design:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1FDA32"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Astist: mysitemyway"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-alphanumeric/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-people-things/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-business/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-food-beverage/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/TextView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-symbols-shapes/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+            android:id="@+id/TextView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-social-media-logos/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+             <TextView
+            android:id="@+id/TextView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="http://icons.mysitemyway.com/glossy-waxed-wood-icons-signs/"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</ScrollView>

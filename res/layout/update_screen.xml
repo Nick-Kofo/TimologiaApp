@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_background"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wood_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="ΕΠΕΞΕΡΓΑΣΙΑ ΠΡΟΜΗΘΕΥΤΗ"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ΥΠΟΧΡΕΩΤΙΚΑ ΠΕΔΙΑ"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/add_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:hint="Ονομα"
+                android:inputType="text"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/add_epitheto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="15"
+                android:hint="Επίθετο"
+                android:inputType="text"
+                android:maxLength="35"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/add_eponimia_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:hint="Επωνυμία Επιχείρησης"
+                android:inputType="text"
+                android:maxLength="35"
+                android:textColorHint="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΦΜ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/add_afm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:hint="ΑΦΜ Επιχείρησης"
+                    android:inputType="number"
+                    android:maxLength="9"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KIN"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/add_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="15"
+                    android:hint="Κινητό"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/add_eidos"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                    android:focusable="false"
+                    android:hint="Είδος"
+                    android:inputType="text"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ΠΡΟΕΡΑΙΤΙΚΑ ΠΕΔΙΑ"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/add_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/add_stathero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="15"
+                    android:hint="Σταθερό"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/add_eidos2"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                    android:focusable="false"
+                    android:hint="(2ο Είδος )"
+                    android:inputType="text"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/add_eidos3"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                    android:focusable="false"
+                    android:hint="(3ο Είδος )"
+                    android:inputType="text"
+                    android:textColorHint="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/add_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/add_save_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/apothikeusiimage"
+                    android:text="Προσθέστε προμηθευτή"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/update_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/update_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/apothikeusiimage"
+                    android:text="Σώστε τις αλλαγές"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

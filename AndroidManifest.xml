@@ -1,0 +1,541 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cooper.timologia"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true" />
+    
+    
+
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-feature android:name="android.hardware.touchscreen"  android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />	
+	<uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+	<uses-feature
+    android:name="android.hardware.location"
+    android:required="false" />
+	<uses-feature
+    android:name="android.hardware.location.network"
+    android:required="false" />
+	<uses-feature
+    android:name="android.hardware.location.gps"
+    android:required="false" />
+
+	
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cooper.timologia.Main_Screen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.MAIN_SCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Promitheutis"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.PROMITHEUTIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Timologio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.TIMOLOGIO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Click"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.CLICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.KafedesDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.KAFEDESDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.PotaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.POTADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.BiresDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.BIRESDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.TsaiDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.TSAIDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.PagotaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.PAGOTADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.SinodeutikaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.SINODEUTIKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Frouta_laxDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.FROUTA_LAXDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.KreatikaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.KREATIKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.TirokomikaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.TIROKOMIKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Ouza_tsipouraDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.OUZATSIPOURADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.KrasiaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.KRASIADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.OuiskiaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.OUISKIADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.VodkaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.VODKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.GinDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.GINDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.TequilaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.TEQUILADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.RumDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.RUMDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.CognaqDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.COGNAQDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.LikerDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.LIKERDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.YlikaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.YLIKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.TrofimaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.TROFIMADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.AnapsiktikaDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.ANAPSIKTIKADETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Hmerisia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.HMERISIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Evdomada"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.EVDOMADA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Etos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.ETOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Mines"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.MINES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.AnazitisiTim"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.ANAZITISITIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Eidi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.EIDI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Imerominies"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.IMEROMINIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Add_Update_User"
+            android:configChanges="orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cooper.timologia.Update_User"
+            android:configChanges="orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cooper.timologia.Update_Tim"
+            android:configChanges="orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cooper.timologia.Add_Update_Tim"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cooper.timologia.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Epikinonia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.EPIKINONIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Credits"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.CREDITS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Backup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.BACKUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.SinoloPromitheuti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.SINOLOPROMITHEUTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.SinolikoPosoPromitheuti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.SINOLIKOPOSOPROMITHEUTI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.EvdomadieoPosoPromitheuti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.EVDOMADIEOPOSOPROMITHEUTI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Ianouarios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.IANOUARIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Fevrouarios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.FEVROUARIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Martios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.MARTIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Aprilios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.APRILIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Maios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.MAIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Iounios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.IOUNIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Ioulios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.IOULIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Augoustos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.AUGOUSTOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Septevrios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.SEPTEVRIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Oktovrios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.OKTOVRIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Noevrios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.NOEVRIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Dekevrios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cooper.timologia.DEKEVRIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooper.timologia.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

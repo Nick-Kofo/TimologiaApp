@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood_background"
+    android:fillViewport="true"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wood_background"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LLarxiko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="ΕΙΣΑΓΩΓΗ ΤΙΜΟΛΟΓΙΟΥ"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/Spinner_Eponimias"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/ET_eponimia_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:hint="Επωνυμία Επιχείρησης"
+                android:inputType="text"
+                android:maxLength="22"
+                android:textColorHint="#000000"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/ET_date_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Ημερομηνία Τιμολογίου"
+                android:inputType="date"
+                android:maxLength="10"
+                android:textColorHint="#000000"
+                android:visibility="gone" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos1_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita1_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_2"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos2_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita2_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="3ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_3"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos3_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita3_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="4ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_4"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos4_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita4_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="5ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_5"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos5_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita5_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="6ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_6"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos6_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita6_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="7ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_7"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos7_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita7_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_arithmos_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="8ο Προϊόν"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/LinearInside11_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner11_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner12_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner13_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside12_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner14_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner15_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner16_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside13_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner17_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner18_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner19_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside14_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner20_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner21_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner22_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside15_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner23_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner24_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner25_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside16_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner26_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner27_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+
+                <Spinner
+                    android:id="@+id/spinner28_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearInside17_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spinner29_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+
+                <Spinner
+                    android:id="@+id/spinner30_8"
+                    style="@style/spinner_style"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ET_eidos8_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Επιλέξτε είδος ↑↑↑"
+                android:textColorHint="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ET_posotita8_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Εισάγεται Ποσότητα"
+                android:imeOptions="actionDone"
+                android:textColorHint="#000000" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion2ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 2ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion2ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion3ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 3ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion3ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion4ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 4ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion4ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion5ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 5ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion5ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion6ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 6ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion6ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion7ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 7ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion7ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLT8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b_valeproion8ο"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:text="Εισάγεται 8ο προϊόν"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b_vgaleproion8ο"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/upimage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLgrames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/grammi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="*******************************************************************************************************************************************************" />
+
+            <EditText
+                android:id="@+id/ET_arithmos_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNMςΕΡΤΥΘΙΟΠΑΣΔΦΓΗΞΚΛΖΧΨΩΒΝΜερτυθιοπασδφγηξκλζχψωβνμ0123456789"
+                android:ems="10"
+                android:hint="Αριθμός Τιμολογίου"
+                android:imeOptions="actionDone"
+                android:maxLength="10"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/ET_timi_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789."
+                android:ems="10"
+                android:hint="Συνολικό ποσό τιμολογίου με ΦΠΑ"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/grammi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="************************************************************************************************************************************************************" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_view_tim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/add_save_btn_tim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/apothikeusiimage"
+                android:text="Προσθέστε"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/update_view_tim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/update_btn_tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/apothikeusiimage"
+                android:text="Σώστε το τιμολόγιο"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
